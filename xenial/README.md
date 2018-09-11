@@ -29,7 +29,7 @@ This vagrant file here does the following things
    SHELL
 ```
 
-* Adds the systemd dropin for docker.socket service for desired port 
+* Adds the systemd dropin for docker.socket unit to expose docker api port. For any linux system adding the `/etc/systemd/system/docker.socket.d/docker-override.conf` file with `ListenStream` set to desired port will expose the docker api. 
 
 ``` ruby 
 $docker_expose_script = <<-SCRIPT

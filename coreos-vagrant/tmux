@@ -1,0 +1,10 @@
+sudo mkdir -p /opt/bin
+sudo chown -R core:core /opt
+export PATH=$PATH:/opt/bin
+cd /opt/bin
+wget http://s.minos.io/s -O static-get
+chmod a+rx ./static-get
+cd /opt
+static-get tmux
+tar xf tmux-*.tar.xz
+/opt/bin/tmux
