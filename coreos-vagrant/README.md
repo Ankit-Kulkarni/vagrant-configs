@@ -1,6 +1,6 @@
 # CoreOS Vagrant
 
-Note: *For detailed instllation of this repo on mac osx see this blogpost [Enabling docker remote API on OSX using vagrant](https://medium.com/@ankit.kulkarni/enabling-docker-remote-api-on-osx-using-vagrant-db773066fb17).*
+Note: *For detailed installation of this repo on mac osx see this blogpost [Enabling docker remote API on OSX using vagrant](https://medium.com/@ankit.kulkarni/enabling-docker-remote-api-on-osx-using-vagrant-db773066fb17).*
 
 ******************** the below part is from  [coreos-vagrant](https://github.com/coreos/coreos-vagrant) *********************
 
